@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Tutorial")
 
 define unknown = Character("???")
 
@@ -46,13 +46,13 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene black
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show anon
 
     # These display lines of dialogue.
 
@@ -374,9 +374,9 @@ label start:
     show black
     with fade
 
-    scene bg room
+    scene black
 
-    show eileen happy
+    show anon
 
     e "Thank you for playing our demo [playerName]!"
 
